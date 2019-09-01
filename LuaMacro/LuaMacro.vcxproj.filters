@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\simpleini">
+      <UniqueIdentifier>{303769f8-2ad5-4647-8638-0fe8f28971d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{342542d4-d0f1-4b86-b320-65969ba1cbfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleini\ConvertUTF.c">
+      <Filter>Source Files\simpleini</Filter>
+    </ClCompile>
+    <ClCompile Include="IniManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simpleini\ConvertUTF.h">
+      <Filter>Source Files\simpleini</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleini\SimpleIni.h">
+      <Filter>Source Files\simpleini</Filter>
+    </ClInclude>
+    <ClInclude Include="IniManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFunc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LuaMacro.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
